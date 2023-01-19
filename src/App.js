@@ -17,6 +17,7 @@ function App() {
         >
           Learn React
         </a>
+        <a href="http://localhost:3000/canvas/">Canvas</a>
       </header>
     </div>
   );
