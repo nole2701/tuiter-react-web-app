@@ -1,0 +1,138 @@
+body {
+    background-color: black;
+    border-color: rgb(47,51,54);
+    color: white;
+}
+
+.center-content {
+    text-align: center;
+}
+
+.tab-holder {
+    height: 60px;
+}
+
+.bordered {
+    border-color: rgb(47,51,54);
+    border-width: 4px;
+    border-style: solid;
+    padding: 16px;
+    margin: 16px;
+}
+
+.bookmarks-title {
+    margin-left: 16px;
+    margin-top: 12px;
+    font-family: Arial;
+    font-size: 20px;
+    color: white;
+}
+
+.main-user-handle {
+    margin-left: 16px;
+    font-family: Arial;
+    font-size: 13px;
+    color: lightgray;
+    border-bottom: 1px;
+    border-bottom-color: lightgray;
+    border-bottom-style: solid;
+}
+
+.user-handle {
+    font-family: Arial;
+    font-size: 15px;
+    color: lightgray;
+}
+
+.user-name {
+    margin-top: 12px;
+    margin-left: 12px;
+    float: left;
+    font-family: Arial;
+    font-size: 15px;
+    color: white;
+}
+
+.avatar {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    float: left;
+    margin-left: 16px;
+    margin-top: 12px;
+}
+
+.grid-row {
+    clear: both;
+    height: 60px;
+}
+
+.three-dots {
+    width: 30px;
+    height: 10px;
+    position: absolute;
+    left: 506px;
+    margin-top: 16px;
+}
+
+.main-content {
+    margin-right: 16px;
+    margin-top: 12px;
+    margin-left: 76px;
+    width: 506px;
+    font-family: Arial;
+    font-size: 15px;
+    color: white;
+}
+
+.main-image {
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    width: 504px;
+    height: 264px;
+    margin-left: 76px;
+    margin-top: 12px;
+}
+
+.image-description-title {
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    width: 480px;
+    margin-top: 12px;
+    margin-left: 76px;
+    padding: 12px;
+    font-size: 15px;
+    font-family: Arial;
+    font-weight: bold;
+    border-width: 1px;
+    border-style: solid;
+    border-top: none;
+    border-color: lightgray;
+}
+
+.image-description {
+    font-size: 15px;
+    font-family: Arial;
+    color:lightgray;
+}
+
+.icon-size {
+    width: 30px;
+    height: 30px;
+}
+
+.icon-count {
+    margin-left: 12px;
+    font-size: 15px;
+    font-family: Arial;
+    color:lightgray;
+}
+
+.red-color {
+    color: red;
+}
+
+.grid-col-icons {
+    width: 125px;
+    float: left;
+}
