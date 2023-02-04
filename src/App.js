@@ -18,6 +18,7 @@ function App() {
           Learn React
         </a>
         <a href="http://localhost:3000/canvas/">Canvas</a>
+        <a href="http://localhost:3000/labs/">Labs</a>
       </header>
     </div>
   );
