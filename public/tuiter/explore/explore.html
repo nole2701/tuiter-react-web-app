@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="index.css" rel="stylesheet"/>
+    <link href="explore.css" rel="stylesheet"/>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link href="../../vendors/fontawesome/css/all.css" rel="stylesheet"/>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet"/>
@@ -20,48 +20,173 @@
     <div class="d-none d-xl-block d-xxl-none fa-2x">Size XL</div>
     <div class="d-none d-xxl-block fa-2x">Size XXL</div>
 
-    <div class="row m-1">
-        <div class="m-2 col-sm-1 col-md-1 col-lg-1 col-xl-2 col-xxl-2 bg-light text-black">
-            <h3>Navigation</h3>
-            <div class="row col-12 bg-secondary m-1 form-inline">
-                <i class="fab fa-twitter p-1 align-middle"></i> <span class="ml-1 d-none d-xl-block text-center align-middle">1</span></div>
-            <div class="row col-12 bg-primary text-white m-1">
-                <i class="fa fa-cog p-1"></i> <span class="ml-1 d-none d-xl-block">2</span></div>
-            <div class="row col-12 bg-danger text-white m-1">
-                <i class="fa fa-cog p-1"></i> <span class="ml-1 d-none d-xl-block">3</span></div>
-            <div class="row col-12 bg-success text-white m-1">
-                <i class="fa fa-cog p-1"></i> <span class="ml-1 d-none d-xl-block">4</span></div>
-            <div class="row col-12 bg-secondary m-1">
-                <i class="fa fa-cog p-1"></i> <span class="ml-1 d-none d-xl-block">5</span></div>
-            <div class="row col-12 bg-primary text-white m-1">
-                <i class="fa fa-cog p-1"></i> <span class="ml-1 d-none d-xl-block">6</span></div>
-            <div class="row col-12 bg-danger text-white m-1">
-                <i class="fa fa-cog p-1"></i> <span class="ml-1 d-none d-xl-block">7</span></div>
-            <div class="row col-12 bg-success text-white m-1">
-                <i class="fa fa-cog p-1"></i> <span class="ml-1 d-none d-xl-block">8</span></div>
-            <div class="row col-12 bg-secondary m-1">
-                <i class="fa fa-cog p-1"></i> <span class="ml-1 d-none d-xl-block">9</span></div>
-            <div class="row col-12 bg-primary text-white m-1">
-                <i class="fa fa-cog p-1"></i> <span class="ml-1 d-none d-xl-block">Tweet</span></div>
+    
+    <div class="row m-2 p-2 justify-content-md-center">
 
+        <!-- NAVIGATION TABS -->
+        <div class="m-2 col-sm-1 col-md-1 col-lg-1 col-xl-2 col-xxl-2 bg-white text-black justify-content-md-center">
+            <div class="row col-12 border  border-bottom-0 rounded-top bg-white form-inline">
+                <i class="fab fa-twitter p-1 align-middle"></i> <span class="ml-1 d-none d-xl-block text-center align-middle"></span></div>
+            <div class="row col-12 border  border-bottom-0 bg-white form-inline">
+                <i class="fa fa-solid fa-home p-1"></i> <span class="ml-1 d-none d-xl-block text-center align-middle">Home</span></div>
+            <div class="row col-12 border  border-bottom-0 bg-primary form-inline">
+                <i class="fa fa-solid fa-hashtag fa-inverse p-1"></i> <span class="ml-1 d-none d-xl-block text-center align-middle text-white">Explore</span></div>
+            <div class="row col-12 border  border-bottom-0 bg-white form-inline">
+                <i class="fa fa-solid fa-bell p-1"></i> <span class="ml-1 d-none d-xl-block text-center align-middle">Notifications</span></div>
+            <div class="row col-12 border  border-bottom-0 bg-white form-inline">
+                <i class="fa fa-solid fa-envelope p-1"></i> <span class="ml-1 d-none d-xl-block text-center align-middle">Messages</span></div>
+            <div class="row col-12 border  border-bottom-0 bg-white form-inline">
+                <i class="fa fa-solid fa-bookmark p-1"></i> <span class="ml-1 d-none d-xl-block text-center align-middle">Bookmarks</span></div>
+            <div class="row col-12 border  border-bottom-0 bg-white form-inline">
+                <i class="fa fa-solid fa-list p-1"></i> <span class="ml-1 d-none d-xl-block text-center align-middle">Lists</span></div>
+            <div class="row col-12 border  border-bottom-0 bg-white form-inline">
+                <i class="fa fa-solid fa-user p-1"></i> <span class="ml-1 d-none d-xl-block text-center align-middle">Profile</span></div>
+            <div class="row col-12 border  rounded-bottom bg-white form-inline">
+                <i class="fa fa-solid fa-minus-circle p-1"></i> <span class="ml-1 d-none d-xl-block text-center align-middle">More</span></div>
+            <div class="row col-12 border  bg-primary form-inline rounded-pill mt-2 justify-content-md-center">
+                <span class="ml-1 text-center align-middle text-white">Tweet</span></div>
         </div>
-        <div class="m-2 col-sm-9 col-md-8 col-lg-7 col-xl-6 col-xxl-6 bg-light text-black">
-         <h3>Main Panel</h3>
+
+
+
+        <!-- MAIN CONTENT -->
+        <div class="row m-2 col-sm-9 col-md-8 col-lg-7 col-xl-6 col-xxl-6 bg-white text-black">
+            <div class="row col-12 m-2 justify-content-between">
+                <div class="col-10 form-inline align-top container-relative">
+                    <input type="text" class="form-control rounded-pill col-10" placeholder="      Search Tuiter">
+                    <i class="fa fa-solid fa-search top-left ml-3"></i>
+                </div>
+                <div class="form-inline align-top">
+                    <div class="font-weight-bold"><i class="mx-2 fa fa-2x fa-solid fa-cog text-primary col-1"></i></div>
+                </div>
+            </div>
+            <ul class="col-12 nav nav-tabs border-bottom m-2">
+                <li class="nav-item">
+                    <a class="nav-link active" href="for-you.html">For You</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="trending.html">Trending</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="news.html">News</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="sports.html">Sports</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="entertainment.html">Entertainment</a>
+                </li>
+            </ul>
+            
+            <div class="container">
+                <img src="../images/spacex-starship.png" height=100% width=100%/>
+                <div class="bottom-left">SpaceX's Starship</div>
+            </div>
+
+            <div class="col-12 border border-bottom-0 bg-white form-inline align-middle justify-content-between">
+                <div class="form-inline align-middle">
+                    <div>
+                        <div class="text-secondary">Web Development</div>
+                        <div><span class="font-weight-bold">Java</span><i class="fa fa-solid fa-check-circle ml-1"></i><span class="text-secondary ml-2">- 2h</span></div>
+                        <div><span class="font-weight-bold">React.js is a component based front end library that makes it very easy to build Single Page Applications or SPAs</span></div>
+                    </div>
+                </div>
+                <div><img src="../images/react-icon.jpg" class="m-3" height="100" width="100"/></div>
+            </div>
+            <div class="col-12 border border-bottom-0 bg-white form-inline align-middle justify-content-between">
+                <div class="form-inline align-middle">
+                    <div>
+                        <div><span class="font-weight-bold">Javascript</span><i class="fa fa-solid fa-check-circle ml-1"></i><span class="text-secondary ml-2">- 2h</span></div>
+                        <div><span class="font-weight-bold">Javascript is programming language that can run on browsers as well as desktops</span></div>
+                        <div class="text-secondary">123K Tweets</div>
+                    </div>
+                </div>
+                <div><img src="../images/javascript-icon.png" class="m-3" height="100" width="100"/></div>
+            </div>
+            <div class="col-12 border border-bottom-0 bg-white form-inline align-middle justify-content-between">
+                <div class="form-inline align-middle">
+                    <div>
+                        <div class="text-secondary">Web Development</div>
+                        <div><span class="font-weight-bold">jQuery</span></div>
+                        <div class="text-secondary">123K Tweets</div>
+                    </div>
+                </div>
+                <div><img src="../images/jquery-icon.png" class="m-3" height="100" width="100"/></div>
+            </div>
+            <div class="col-12 border rounded-bottom bg-white form-inline align-middle justify-content-between">
+                <div class="form-inline align-middle">
+                    <div>
+                        <div class="text-secondary">Web Development</div>
+                        <div><span class="font-weight-bold">NodeJS</span><i class="fa fa-solid fa-check-circle ml-1"></i><span class="text-secondary ml-2">- 2h</span></div>
+                        <div class="text-secondary">123K Tweets</div>
+                    </div>
+                </div>
+                <div><img src="../images/nodejs-icon.png" class="m-3" height="100" width="100"/></div>
+            </div>
+            
         </div>
-        <div class="m-2 d-none d-lg-block col-lg-3 col-xl-3 col-xxl-3 bg-light text-black">
-            <h3>Who to Follow</h3>
-            <div class="col-12 bg-secondary">
-                <h4>1</h4></div>
-            <div class="col-12 bg-primary text-white">
-                <h4>2</h4></div>
-            <div class="col-12 bg-danger text-white">
-                <h4>3</h4></div>
-            <div class="col-12 bg-success text-white">
-                <h4>4</h4></div>
-            <div class="col-12 bg-secondary">
-                <h4>5</h4></div>
-            <div class="col-12 bg-primary text-white">
-                <h4>6</h4></div>
+
+
+
+        <!-- WHO TO FOLLOW -->
+        <div class="m-2 p-2 d-none d-lg-block col-lg-3 col-xl-3 col-xxl-3 bg-white text-black justify-content-md-center">
+            <div class="col-12 border  border-bottom-0 rounded-top bg-white form-inline align-middle">
+                <h4>Who to Follow</h4></div>
+            <div class="col-12 border  border-bottom-0 bg-white form-inline align-middle justify-content-between">
+                <div class="form-inline align-middle">
+                    <div><img src="../images/java-logo.png" class="rounded-circle m-1 mr-3" height="48" width="48"/></div>
+                    <div>
+                        <div class="font-weight-bold">Java<i class="fa fa-solid fa-check-circle ml-1"></i></div>
+                        <div>@Java</div>
+                    </div>
+                </div>
+                <div class="border  bg-primary form-inline rounded-pill justify-content-md-center">
+                    <span class="py-1 px-2 text-center align-middle text-white">Follow</span></div>
+            </div>
+            <div class="col-12 border  border-bottom-0 bg-white form-inline align-middle justify-content-between">
+                <div class="form-inline align-middle">
+                    <div><img src="../images/relativity-space-icon.jpg" class="rounded-circle m-1 mr-3" height="48" width="48"/></div>
+                    <div>
+                        <div class="font-weight-bold">Relativity Space<i class="fa fa-solid fa-check-circle ml-1"></i></div>
+                        <div>@relativityspace</div>
+                    </div>
+                </div>
+                <div class="border  bg-primary form-inline rounded-pill justify-content-md-center">
+                    <span class="py-1 px-2 text-center align-middle text-white">Follow</span></div>
+            </div>
+            <div class="col-12 border  border-bottom-0 bg-white form-inline align-middle justify-content-between">
+                <div class="form-inline align-middle">
+                    <div><img src="../images/virgin-icon.png" class="rounded-circle m-1 mr-3" height="48" width="48"/></div>
+                    <div>
+                        <div class="font-weight-bold">Virgin Galactic<i class="fa fa-solid fa-check-circle ml-1"></i></div>
+                        <div>@virgingalactic</div>
+                    </div>
+                </div>
+                <div class="border  bg-primary form-inline rounded-pill justify-content-md-center">
+                    <span class="py-1 px-2 text-center align-middle text-white">Follow</span></div>
+            </div>
+            <div class="col-12 border  border-bottom-0 bg-white form-inline align-middle justify-content-between">
+                <div class="form-inline align-middle">
+                    <div><img src="../images/nasa-icon.png" class="rounded-circle m-1 mr-3" height="48" width="48"/></div>
+                    <div>
+                        <div class="font-weight-bold">NASA<i class="fa fa-solid fa-check-circle ml-1"></i></div>
+                        <div>@NASA</div>
+                    </div>
+                </div>
+                <div class="border  bg-primary form-inline rounded-pill justify-content-md-center">
+                    <span class="py-1 px-2 text-center align-middle text-white">Follow</span></div>
+            </div>
+            <div class="col-12 border  bg-white rounded-bottom form-inline align-middle justify-content-between">
+                <div class="form-inline align-middle">
+                    <div><img src="../images/tesla-icon.png" class="rounded-circle m-1 mr-3" height="48" width="48"/></div>
+                    <div>
+                        <div class="font-weight-bold">Tesla<i class="fa fa-solid fa-check-circle ml-1"></i></div>
+                        <div>@Tesla</div>
+                    </div>
+                </div>
+                <div class="border  bg-primary form-inline rounded-pill justify-content-md-center">
+                    <span class="py-1 px-2 text-center align-middle text-white">Follow</span></div>
+            </div>
         </div>
     </div>
     
