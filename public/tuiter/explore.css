@@ -1,0 +1,109 @@
+body {
+    padding-left: 16px;
+    background-color: black;
+    border-color: rgb(47,51,54);
+}
+
+.center-content {
+    text-align: center;
+}
+
+.tab-holder {
+    height: 60px;
+}
+
+.bordered {
+    border-color: rgb(47,51,54);
+    border-width: 1px;
+    border-style: solid;
+}
+
+.search-bar {
+    margin: auto;
+    width: 80%;
+    background-color: darkgray;
+    border-radius: 50px;
+    padding-left: 10px;
+    font-size: 20px;
+}
+
+.explore-settings {
+    width: 40px;
+    height: 40px;
+    float: right;
+    background-color: white;
+    margin-right: 12px;
+    margin-top: 6px
+}
+
+.three-dots {
+    width: 30px;
+    height: 10px;
+    position: absolute;
+    right: 12px;
+    margin-top: 6px;
+}
+
+.fg-color-white {
+    color: white;
+}
+
+.tab-select {
+    width: 16.5%;
+    float: left;
+    color: rgb(110,118,125);
+    font-family: Arial;
+}
+
+.tab-highlight {
+    color: rgb(29,161,242);
+}
+
+.grey-topic-font {
+    font-family: Arial;
+    font-size: 13px;
+    color: rgb(110,118,125);
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.grey-font {
+    font-family: Arial;
+    font-size: 13px;
+    color: rgb(110,118,125);
+}
+
+.white-topic-font {
+    font-family: Arial;
+    font-size: 18px;
+    color: white;
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.white-author-font {
+    font-family: Arial;
+    font-size: 13px;
+    color: white;
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.left-float {
+    float: left;
+}
+
+.rounded-image {
+    float: right;
+    border-radius: 30px;
+    width: 100px;
+    height: 100px;
+    margin-right: 16px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    background-color: white;
+}
