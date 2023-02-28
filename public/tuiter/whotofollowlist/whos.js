@@ -16,7 +16,7 @@ export default [
         userName: 'NASA',
         handle: '@NASA',
     },
-    {   avatarIcon: '../images//tesla-icon.png', 
+    {   avatarIcon: '../images/tesla-icon.png', 
         userName: 'Tesla',
         handle: '@Tesla',
     },
