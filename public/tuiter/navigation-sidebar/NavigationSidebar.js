@@ -1,4 +1,4 @@
-const NavigationSidebar = () => {
+const NavigationSidebar = () => { //html
     return(`
         <div class="border border-secondary border-bottom-0 rounded-top bg-light form-inline">
             <span class="form-inline"><i class="fab fa-twitter p-1 align-middle"></i><span class="ml-1 d-none d-xl-block  align-middle"></span></div>

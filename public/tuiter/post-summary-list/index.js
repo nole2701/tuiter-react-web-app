@@ -1,7 +1,7 @@
 import posts from "./posts.js"
 import PostSummaryItem from "./PostSummaryItem.js";
 
-const PostSummaryList = () => {
+const PostSummaryList = () => { //html
     return(`
     <ul class="list-group border border-secondary rounded">
         ${

@@ -1,5 +1,5 @@
 // who refers to the handle of the user since all handles are unique.
-const PostSummaryItem = (post) => {
+const PostSummaryItem = (post) => { //html
     var tweetCount;
     if (post.tweets === undefined) {
         tweetCount = "";
