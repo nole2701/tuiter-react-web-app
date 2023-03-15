@@ -1,46 +1,69 @@
 import React from "react";
+import {useDispatch, useSelector} from "react-redux";
+import { setNav } from "../reducers/navigation-reducer";
+// import NavigationItem from "./navigation-item";
 /* eslint-disable jsx-a11y/anchor-is-valid */
 
-const NavigationSidebar = (
- {
-   active = 'explore'
- }
-) => {
+const NavigationSidebar = () => {
+  // const NavigationTabs = ['Home', 'Explore', 'Notifications', 'Messages', 'Bookmarks', 'Lists', 'Profile', 'More']
+
+  const active = useSelector(state => state.nav);
+  const dispatch = useDispatch();
+  const handleNavClick = () => {
+    dispatch(setNav("Home"))
+  };
+  const handleNavClick2 = () => {
+    dispatch(setNav("Explore"))
+  };
+
  return (
    <div className="list-group">
-     <a className="list-group-item">Tuiter</a>
-     <a className={`list-group-item
-                    ${active === 'home'?'active':''}`}>
+     <div className="list-group-item">Tuiter</div>
+    
+    {/* {NavigationTabs.map(nav => NavigationItem(nav))} */}
+
+     <div className={`list-group-item
+                    ${active === 'Home'?'active':''}`}
+                    onClick={handleNavClick}
+                    >
        Home 
-     </a>
-     <a className={`list-group-item
-                    ${active === 'explore'?'active':''}`}>
+     </div>
+     <div className={`list-group-item
+                    ${active === 'Explore'?'active':''}`}
+                    onClick={handleNavClick2}
+                    >
        Explore
-     </a>
-     <a className={`list-group-item
-                    ${active === 'notifications'?'active':''}`}>
+     </div>
+     <div className={`list-group-item
+                    ${active === 'notifications'?'active':''}`}
+                    >
        Notifications
-     </a>
-     <a className={`list-group-item
-                    ${active === 'messages'?'active':''}`}>
+     </div>
+     <div className={`list-group-item
+                    ${active === 'messages'?'active':''}`}
+                    >
        Messages
-     </a>
-     <a className={`list-group-item
-                    ${active === 'bookmarks'?'active':''}`}>
+     </div>
+     <div className={`list-group-item
+                    ${active === 'bookmarks'?'active':''}`}
+                    >
        Bookmarks
-     </a>
-     <a className={`list-group-item
-                    ${active === 'lists'?'active':''}`}>
+     </div>
+     <div className={`list-group-item
+                    ${active === 'lists'?'active':''}`}
+                    >
        Lists
-     </a>
-     <a className={`list-group-item
-                    ${active === 'profile'?'active':''}`}>
+     </div>
+     <div className={`list-group-item
+                    ${active === 'profile'?'active':''}`}
+                    >
        Profile
-     </a>
-     <a className={`list-group-item
-                    ${active === 'more'?'active':''}`}>
+     </div>
+     <div className={`list-group-item
+                    ${active === 'more'?'active':''}`}
+                    >
        More
-     </a>
+     </div>
    </div>
  );
 };
