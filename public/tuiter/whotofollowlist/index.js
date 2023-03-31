@@ -1,7 +1,7 @@
 import WhoToFollowListItem from "./WhoToFollowListItem.js"
 import whos from "./whos.js"
 
-const WhoToFollowList = () => {
+const WhoToFollowList = () => { //html
     return(`
     <ul class="list-group border border-secondary rounded">
         <div class="col-12 bg-light form-inline align-middle">

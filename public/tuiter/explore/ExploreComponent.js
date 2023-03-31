@@ -1,6 +1,6 @@
 import PostSummaryList from "../post-summary-list/index.js";
 
-const ExploreComponent = () => {
+const ExploreComponent = () => { //html
     return(`
                 <div class="row m-2 justify-content-between">
                     <div class="row col-11 align-middle container position-relative">

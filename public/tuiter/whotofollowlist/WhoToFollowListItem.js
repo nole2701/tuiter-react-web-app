@@ -1,5 +1,5 @@
 // who refers to the handle of the user since all handles are unique.
-const WhoToFollowListItem = (who) => {
+const WhoToFollowListItem = (who) => { //html
     return(`
     <div class="col-12 border-top border-secondary bg-light form-inline align-middle justify-content-between">
         <div class="form-inline align-middle">
