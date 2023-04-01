@@ -12,7 +12,7 @@ import MainContent from "./MainContent";
 const store = configureStore(
   {reducer:
     { who: whoReducer,
-      tuits: tuitsReducer,
+      tuitsData: tuitsReducer,
       nav: navReducer,
     }
   }
