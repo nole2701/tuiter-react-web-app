@@ -12,12 +12,12 @@ const TuitList = () => {
   
  return(
    <ul className="list-group">
-    {/* {
-       loading &&
-       <li className="list-group-item">
-         Loading...
-       </li>
-     } */}
+    {
+      //  loading &&
+      //  <li className="list-group-item">
+      //    Loading...
+      //  </li>
+     }
 
      {
        tuitsArray.map(tuit =>

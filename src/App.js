@@ -5,7 +5,6 @@ import {BrowserRouter} from "react-router-dom";
 import {Routes, Route} from "react-router";
 import 'bootstrap/dist/css/bootstrap.css';
 
-
 function App() {
   return (
     <BrowserRouter>

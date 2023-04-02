@@ -67,9 +67,6 @@ const tuitsSlice = createSlice({
             ...payload
          }
       }
-
-
-
  },
 
 
@@ -81,13 +78,13 @@ const tuitsSlice = createSlice({
     //     state.splice(index, 1);
     //   },
    
-    // createTuit(state, action) {
-    //     state.unshift({
-    //       ...action.payload,
-    //       ...templateTuit,
-    //       _id: (new Date()).getTime(),
-    //     })
-    //   },
+   //  createTuit(state, action) {
+   //      state.unshift({
+   //        ...action.payload,
+   //        ...templateTuit,
+   //        _id: (new Date()).getTime(),
+   //      })
+   //    },
    
     // toggleLike(state, action) {
     //     // console.log("LIKE PRESSED");
