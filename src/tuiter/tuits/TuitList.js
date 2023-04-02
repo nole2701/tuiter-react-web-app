@@ -4,7 +4,7 @@ import TuitItem from "./TuitItem";
 import {findTuitsThunk} from "../../services/tuits-thunks";
 
 const TuitList = () => {
-  const tuitsArray = useSelector(state => state.tuitsData.tuits)
+  const {tuits, loading} = useSelector(state => state.tuitsData)
    const dispatch = useDispatch();
    useEffect(() => {
      dispatch(findTuitsThunk()) // eslint-disable-next-line
@@ -13,14 +13,14 @@ const TuitList = () => {
  return(
    <ul className="list-group">
     {
-      //  loading &&
-      //  <li className="list-group-item">
-      //    Loading...
-      //  </li>
+       loading &&
+       <li className="list-group-item">
+         Loading...
+       </li>
      }
 
      {
-       tuitsArray.map(tuit =>
+       tuits.map(tuit =>
        <TuitItem
             key={tuit._id}
             tuit={tuit}/>
